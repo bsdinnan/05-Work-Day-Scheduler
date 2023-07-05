@@ -3,6 +3,10 @@ body {
   font-size: 16px;
 }
 
+.timeEl {
+  padding: 50px;
+}
+
 textarea {
   background: transparent;
   border: none;
