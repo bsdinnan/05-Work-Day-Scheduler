@@ -1,12 +1,15 @@
+/* Set the font family and size for the entire body */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+/* Add padding to the time elements container */
 .timeEl {
   padding: 50px;
 }
 
+/* Style the textarea element */
 textarea {
   background: transparent;
   border: none;
@@ -16,39 +19,47 @@ textarea {
   padding: 10px;
 }
 
+/* Adjust the white space handling in the description textarea */
 .description {
   white-space: pre-wrap;
 }
 
+/* Style the time block container */
 .time-block {
   border-radius: 15px;
 }
 
+/* Add a top border to each row */
 .row {
   border-top: 1px solid white;
 }
 
+/* Style the hour element */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* Style the past time blocks */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/* Style the present time block */
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/* Style the future time blocks */
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+/* Style the save button */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -57,6 +68,7 @@ textarea {
   color: white;
 }
 
+/* Add hover effect to the save button icon */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
